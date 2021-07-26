@@ -14,3 +14,6 @@ client.connect(err => {
   client.close();
 });
 ```
+
+### Tutorial
+MongoDB quick start guide: [https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database](https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database)
