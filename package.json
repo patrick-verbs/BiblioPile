@@ -9,9 +9,11 @@
     "lint": "eslint src/*.js",
     "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Patrick Lee",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
@@ -30,5 +32,8 @@
     "bootstrap": "^4.6.0",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
