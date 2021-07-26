@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode development",
     "go": "npm run build & webpack-dev-server --open --mode development",
-    "start": "npm run build & webpack-dev-server --open --mode production",
+    "start": "node server.js",
     "lint": "eslint src/*.js",
     "test": "jest --coverage"
   },
@@ -23,15 +23,15 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "bootstrap": "^4.6.0",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1",
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "bootstrap": "^4.6.0",
     "clean-webpack-plugin": "3.0.0",
     "css-loader": "3.2.0",
     "html-webpack-plugin": "3.2.0",
     "jest": "^24.9.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
     "style-loader": "1.0.0"
   },
   "engines": {
