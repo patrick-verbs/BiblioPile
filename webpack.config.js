@@ -15,9 +15,11 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Example Title',
-      template: './src/index.html',
-      inject: 'body'
+      title: '📚 BiblioPile',
+      favicon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>',
+      template: './src/index.html', // template file
+      filename: `index.html`, // output file
+      inject: 'true'
     })
   ],
   module: {
