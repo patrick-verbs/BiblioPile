@@ -1,5 +1,18 @@
+### Assets Used
+
+|  Fonts   |    License    | Source |
+|----------|:-------------:|-------:|
+| Kingthings Trypewriter | [Kingthings License v1.00](https://www.fontsquirrel.com/license/Kingthings-Trypewriter) | [Font Squirrel](https://www.fontsquirrel.com/fonts/Kingthings-Trypewriter) |
+
+|  Images  |    License    | Source |
+|----------|:-------------:|-------:|
+| bookshelf-brown.png | CC-BY-SA 3.0, GPL 3.0 | [OpenGameArt.org](https://opengameart.org/content/lpc-shelves-rework) |
+| bookshelf-green.png | CC-BY-SA 3.0, GPL 3.0 | [OpenGameArt.org](https://opengameart.org/content/lpc-shelves-rework) |
+
 Create React-with-Redux project template with ASP.NET Core
 https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-5.0&tabs=visual-studio
+
+### Capstone Proposal
 
 Name: BiblioPile
  
