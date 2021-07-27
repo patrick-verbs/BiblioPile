@@ -18,6 +18,11 @@ body {
   background-color: rgb(173, 194, 173);
 }
 
+a:hover {
+  color: rgb(126, 153, 126);
+  text-decoration: none;
+}
+
 .anchor {
   display: block;
   height: 100px;
@@ -34,7 +39,7 @@ header {
   position: fixed;
 }
 
-header .header-me {
+header .header-bibliopile {
   display: block;
   margin: 0 auto;
   text-align: left;
@@ -72,7 +77,8 @@ header nav ul li {
 header nav ul li a {
   color: #f2f2f2;
   font-family: 'Special Elite';
-  font-size: 16px;
+  font-size: 24px;
+  text-shadow: 1px 3px 4px #000;
 }
 
 /* INDEX - BANNER */
@@ -87,7 +93,7 @@ main {
   background-image: url("../img/bookshelf-brown.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 120vh;
   display: table;
   /* Sets up the "table-cell" call in .vertical-banner, below */
 }
@@ -127,18 +133,18 @@ span.highlight {
   -webkit-text-stroke: 2px 0080aa;
 }
 
-/* INDEX - PROJECTS */
-section.index-projects {
+/* INDEX - BROWSE */
+section.index-browse {
   width: calc(100% - 40px);
   /* 100% - (px from left padding) - (px from right padding) */
   height: calc(100vh - 100px);
   padding: 40px 20px;
-  background-color: #493038;
+  background-color: #f2f2f2;
   overflow: hidden;
   display: table;
 }
 
-section.index-projects div {
+section.index-browse div {
   float: right;
   margin: 0;
   padding: 20px;
@@ -148,7 +154,7 @@ section.index-projects div {
   text-align: left;
 }
 
-section.index-projects h3 {
+section.index-browse h3 {
   margin: 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -159,7 +165,7 @@ section.index-projects h3 {
   color: #805660;
 }
 
-section.index-projects p {
+section.index-browse p {
   display: block;
   font-variant: normal;
   font-family: 'Cormorant Garamond';
@@ -171,7 +177,7 @@ section.index-projects p {
   min-width: 240px;
 }
 
-section.index-projects p a {
+section.index-browse p a {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 900;
@@ -180,8 +186,8 @@ section.index-projects p a {
   padding: 0 4px 0 4px;
 }
 
-/* INDEX - ABOUT */
-section.index-about {
+/* INDEX - READ */
+section.index-read {
   width: calc(100% - 40px);
   /* 100% - (px from left padding) - (px from right padding) */
   height: calc(100vh - 100px);
@@ -191,7 +197,7 @@ section.index-about {
   display: table;
 }
 
-section.index-about article {
+section.index-read article {
   float: left;
   margin: 0;
   padding: 20px;
@@ -205,7 +211,7 @@ section.index-about article {
   font-variant: small-caps;
 }
 
-section.index-about article p {
+section.index-read article p {
   width: 25vw;
   min-width: 240px;
   display: block;
@@ -215,19 +221,19 @@ section.index-about article p {
   text-align: left;
 }
 
-/* INDEX - CONTACT */
-section.index-contact {
+/* INDEX - IMPORT */
+section.index-import {
   width: calc(100% - 32px);
   /* 100% - (px from left padding) - (px from right padding) */
   height: calc(100vh - 100px);
   padding: 40px 16px;
-  background-color: #802458;
+  background-color: #c9daff;
   overflow: hidden;
   display: table;
 }
 
-section.index-contact div {
-  margin: 0;
+section.index-import div {
+  margin: 0 auto;
   padding: 4px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -235,31 +241,31 @@ section.index-contact div {
   text-align: left;
 }
 
-section.index-contact ul {
+section.index-import ul {
   float: right;
   margin: 0;
-  border: 8px double #ee488f;
-  padding: 16px;
+  border: 8px double #020202;
+  padding: 32px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   font-family: 'Special Elite';
-  font-size: 20px;
-  line-height: 30px;
-  color: #ee488f;
+  font-size: 36px;
+  line-height: 54px;
+  color: #020202;
   font-variant: small-caps;
 }
 
-section.index-contact ul li {
+section.index-import ul li {
   display: block;
   list-style: none;
   font-variant: normal;
   text-align: right;
 }
 
-section.index-contact ul li a {
-  background-color: #f2f2f210;
-  color: #ee488f;
+section.index-import ul li a {
+  background-color: #82a8ff;
+  color: #82a8ff;
   padding: 4px;
 }
 
@@ -307,4 +313,3 @@ footer ol li a {
   margin-bottom: 10px;
   padding: 4px 0;
 }
-/*# sourceMappingURL=styles.css.map */
