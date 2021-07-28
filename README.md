@@ -8,6 +8,7 @@
 |----------|:-------------:|-------:|
 | bookshelf-brown.png | CC-BY-SA 3.0, GPL 3.0 | [OpenGameArt.org](https://opengameart.org/content/lpc-shelves-rework) |
 | bookshelf-green.png | CC-BY-SA 3.0, GPL 3.0 | [OpenGameArt.org](https://opengameart.org/content/lpc-shelves-rework) |
+| `img/book-jetrel`   | CC-BY-SA 3.0, GPL 3.0 | [OpenGameArt.org](https://opengameart.org/content/cc0-book-icons) |
 
 Create React-with-Redux project template with ASP.NET Core
 https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-5.0&tabs=visual-studio
