@@ -10,6 +10,10 @@
 | bookshelf-green.png | CC-BY-SA 3.0, GPL 3.0 | [OpenGameArt.org](https://opengameart.org/content/lpc-shelves-rework) |
 | `img/book-jetrel`   | CC-BY-SA 3.0, GPL 3.0 | [OpenGameArt.org](https://opengameart.org/content/cc0-book-icons) |
 
+|  Ebooks  |    License    | Source |
+|----------|:-------------:|-------:|
+| a-tale-of-two-cities_dickens.epub | Public Domain | [Project Gutenberg](https://www.gutenberg.org/ebooks/98) |
+
 Create React-with-Redux project template with ASP.NET Core
 https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-5.0&tabs=visual-studio
 
